@@ -53,16 +53,16 @@ export class Playground extends React.Component<IProps> {
   @action.bound
   private onKeyDown({ key }: KeyboardEvent) {
     switch (key) {
-      case "ArrowLeft":
+      case "h":
         this.props.store.setSnakeDirection("Left");
         break;
-      case "ArrowRight":
+      case "l":
         this.props.store.setSnakeDirection("Right");
         break;
-      case "ArrowUp":
+      case "k":
         this.props.store.setSnakeDirection("Up");
         break;
-      case "ArrowDown":
+      case "j":
         this.props.store.setSnakeDirection("Down");
         break;
       default:

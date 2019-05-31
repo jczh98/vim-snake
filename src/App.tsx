@@ -4,12 +4,12 @@ import "./App.scss";
 import { createPlaygroundStore, Playground } from "./Playground";
 
 const PlaygroundStore = createPlaygroundStore({
-  hCount: 50,
-  vCount: 50,
-  speed: 30,
+  hCount: 30,
+  vCount: 30,
+  speed: 10,
   startPosition: {
-    x: 25,
-    y: 25
+    x: 15,
+    y: 15
   }
 });
 @observer
@@ -22,7 +22,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="top-row">
-          <span className="title">neon snake</span>
+          <span className="title">vim neon snake</span>
         </div>
         <div className="middle-row">
           <Playground store={this.store} />

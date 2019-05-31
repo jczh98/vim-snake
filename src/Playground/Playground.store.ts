@@ -51,7 +51,7 @@ export const createPlaygroundStore = (
       tiles: types.optional(types.array(TileStore), tiles),
       snake: types.optional(SnakeStore, {}),
       gameOver: types.optional(types.boolean, true),
-      showVfx: true
+      showVfx: false
     })
     .volatile(self => ({
       speed
