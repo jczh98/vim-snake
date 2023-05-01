@@ -14,7 +14,7 @@
     "mobx-state-tree": "^3.9.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.1.2",
+    "react-scripts": "5.0.1",
     "sass-loader": "^7.1.0",
     "typescript": "^3.2.2"
   },
@@ -41,7 +41,7 @@
     "@storybook/addon-info": "^4.1.4",
     "@storybook/addon-links": "^4.1.4",
     "@storybook/addons": "^4.1.4",
-    "@storybook/react": "^4.1.4",
+    "@storybook/react": "^4.1.18",
     "@types/classnames": "^2.2.6",
     "@types/storybook__addon-knobs": "^4.0.0",
     "@types/storybook__react": "^4.0.0",
